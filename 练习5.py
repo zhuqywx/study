@@ -6,5 +6,3 @@ for i in range(3):
 	l.append(x)
 l.sort()
 print (l)
-
-#####
