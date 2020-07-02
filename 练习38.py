@@ -6,7 +6,7 @@ if __name__ == '__main__':
     for i in range(3):
         a.append([])
         for j in range(3):
-            a[i].append(int(input("input num:\n")))
+            a[i].append(float(input("input num:\n")))
     for i in range(3):
         sum += a[i][i]
     print (sum)
