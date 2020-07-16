@@ -12,6 +12,7 @@ file_name = 'demo.txt'
 # 在windows系统使用路径时，可以使用/来代替\
 # 或者可以使用\\来代替\
 # 或者也可以使用原始字符串
+file_name = 'hello/demo.txt'
 file_name = 'hello\\demo.txt'
 file_name = r'hello\demo.txt'
 
@@ -20,7 +21,7 @@ file_name = '../hello/demo.txt'
 
 # 如果目标文件距离当前文件比较远，此时可以使用绝对路径
 # 绝对路径应该从磁盘的根目录开始书写
-#file_name = r'D:\zqy\python自学\文件\hello.txt'
+# file_name = r'D:\zqy\python自学\文件\hello\demo.txt'
 
 file_obj = open(file_name) # 打开file_name对应的文件
 
